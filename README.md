@@ -19,9 +19,13 @@ Steps to run on Google Colab
 !export PYTHONPATH=/path/to/SlowFast/slowfast:$PYTHONPATH
 
 %cd slowfast
+
 !pip3 install scikit-learn
+
 !pip3 install Pillow
+
 !pip3 install -e .
+
 !pip install "git+https://github.com/facebookresearch/pytorchvideo.git"
 
 Finally run inference on T4 GPU
