@@ -1,4 +1,4 @@
-This is a copy of repository : https://github.com/facebookresearch/SlowFast/ with modifications to allow inference on python 3.10.12
+This is a copy of repository : https://github.com/facebookresearch/SlowFast/ with few bug fixes to allow inference on python 3.10.12 in a Colab environment
 
 Refer to yaml, pkl files inside myconfig folder
 
