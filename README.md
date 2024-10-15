@@ -6,9 +6,7 @@ Steps to run on Google Colab
 
 !pip install -U torch torchvision cython
 
-!pip install -U 'git+https://github.com/facebookresearch/fvcore.git'
-
-'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
+!pip install -U 'git+https://github.com/facebookresearch/fvcore.git' 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
 
 !git clone https://github.com/facebookresearch/detectron2 detectron2_repo
 
