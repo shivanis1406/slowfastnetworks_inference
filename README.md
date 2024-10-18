@@ -1,6 +1,6 @@
 This is a copy of repository : https://github.com/facebookresearch/SlowFast/ with few bug fixes to allow inference on python 3.10.12 in a Colab environment
 
-Refer to yaml, pkl files inside myconfig folder
+Refer to yaml file inside myconfig folder. Download pre-trained model file (.pkl) from https://dl.fbaipublicfiles.com/pyslowfast/model_zoo/ava/SLOWFAST_32x2_R101_50_50.pkl or https://github.com/facebookresearch/SlowFast/blob/main/MODEL_ZOO.md
 
 Steps to run on Google Colab
 
