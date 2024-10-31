@@ -11,7 +11,7 @@ pip install -e detectron2_repo
 git clone --recursive https://github.com/pytorch/pytorch
 git clone https://github.com/shivanis1406/slowfastnetworks_inference
 export PYTHONPATH=/path/to/SlowFast/slowfast:$PYTHONPATH
-cd slowfast
+cd slowfastnetworks_inference
 pip3 install scikit-learn
 pip3 install Pillow
 pip3 install -e .
