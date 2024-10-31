@@ -9,7 +9,7 @@ pip install -U 'git+https://github.com/facebookresearch/fvcore.git' 'git+https:/
 git clone https://github.com/facebookresearch/detectron2 detectron2_repo
 pip install -e detectron2_repo
 git clone --recursive https://github.com/pytorch/pytorch
-git clone [https://github.com/facebookresearch/slowfast](https://github.com/shivanis1406/slowfastnetworks_inference)
+git clone https://github.com/shivanis1406/slowfastnetworks_inference
 export PYTHONPATH=/path/to/SlowFast/slowfast:$PYTHONPATH
 cd slowfast
 pip3 install scikit-learn
