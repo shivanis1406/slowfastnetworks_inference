@@ -29,5 +29,3 @@ Edit myconfig/SLOWFAST_32x2_R101_50_50.yaml
 python3 tools/run_net.py --cfg myconfig/SLOWFAST_32x2_R101_50_50.yaml
 ```
 
-My Colab : https://colab.research.google.com/drive/1ORKjsVkaXbzJ3sR0FmQD2dZwNHCN4kWw#scrollTo=LqazzPzl_tLq
-
