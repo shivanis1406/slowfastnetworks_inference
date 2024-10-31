@@ -20,9 +20,9 @@ pip install "git+https://github.com/facebookresearch/pytorchvideo.git"
 
 Finally run inference on T4 GPU - 
 Edit myconfig/SLOWFAST_32x2_R101_50_50.yaml 
-1. Change the path to input video -> INPUT_VIDEO: "/content/mom6.mp4"
+1. Change the path to input video -> INPUT_VIDEO: "/content/mom6.mp4". Check test_video_1.mp4 for an example
 2. Edit the path to .pkl model -> CHECKPOINT_FILE_PATH: /content/SLOWFAST_32x2_R101_50_50.pkl
-3. Edit the path to .json -> LABEL_FILE_PATH: "/content/ava_action_list.json"
+3. Edit the path to .json -> LABEL_FILE_PATH: "/content/ava_action_list.json". JSON is present inside myconfig folder
 
 
 ```
