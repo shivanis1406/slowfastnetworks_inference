@@ -18,7 +18,9 @@ pip3 install -e .
 pip install "git+https://github.com/facebookresearch/pytorchvideo.git"
 ```
 
-Finally run inference on T4 GPU
+Finally run inference on T4 GPU - 
+Change """ INPUT_VIDEO: "/content/mom6.mp4" """ inside myconfig/SLOWFAST_32x2_R101_50_50.yaml to point to the video on which inference is to be run
+
 ```
 python3 tools/run_net.py --cfg /content/SLOWFAST_32x2_R101_50_50.yaml
 ```
